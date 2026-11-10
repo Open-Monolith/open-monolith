@@ -1,0 +1,11 @@
+[package]
+name = "monolith"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+monolith-core = { version = "0.1.0", path = "../monolith-core" }
+monolith-ui = { version = "0.1.0", path = "../monolith-ui" }
+monolith-db = { version = "0.1.0", path = "../monolith-db" }
+bevy = "0.20.1"
+bevy_egui = "0.43.1"
