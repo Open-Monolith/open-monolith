@@ -7,3 +7,6 @@ opt-level = 1
 
 [profile.dev.package."*"]
 opt-level = 3
+
+[alias]
+dev = "run -p monolith --features bevy/dynamic_linking"
